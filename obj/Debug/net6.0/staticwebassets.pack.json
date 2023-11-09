@@ -25,12 +25,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\10417c1d926341e29ffafeb261e15c0b.png",
+      "PackagePath": "staticwebassets\\images\\10417c1d926341e29ffafeb261e15c0b.png"
+    },
+    {
+      "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\1b72802d1d134b4982830b595c0cd2fa.png",
+      "PackagePath": "staticwebassets\\images\\1b72802d1d134b4982830b595c0cd2fa.png"
+    },
+    {
+      "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\1c192472bfb04faca130dd78d2c04394.png",
+      "PackagePath": "staticwebassets\\images\\1c192472bfb04faca130dd78d2c04394.png"
+    },
+    {
       "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\2e345eb0cd1944f195109d2e3f54d807.png",
       "PackagePath": "staticwebassets\\images\\2e345eb0cd1944f195109d2e3f54d807.png"
     },
     {
+      "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\40d70a17ae4041c8a6a0711058707b68.png",
+      "PackagePath": "staticwebassets\\images\\40d70a17ae4041c8a6a0711058707b68.png"
+    },
+    {
+      "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\742de99833e04d588db9c4cd26d1ec69.png",
+      "PackagePath": "staticwebassets\\images\\742de99833e04d588db9c4cd26d1ec69.png"
+    },
+    {
       "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\apple-pie.jpg",
       "PackagePath": "staticwebassets\\images\\apple-pie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\c8773ed586cc4fe389632e31a3cc8d3a.png",
+      "PackagePath": "staticwebassets\\images\\c8773ed586cc4fe389632e31a3cc8d3a.png"
     },
     {
       "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\c88733d6f9bc4cd8856f2c4fea56b3ff.png",
@@ -45,8 +69,16 @@
       "PackagePath": "staticwebassets\\images\\coffee.jpg"
     },
     {
+      "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\d5bcc15b3afa4faa9ad3924dbdc3f17f.png",
+      "PackagePath": "staticwebassets\\images\\d5bcc15b3afa4faa9ad3924dbdc3f17f.png"
+    },
+    {
       "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\d82d15915a5a4f2684f6adb4b33bebc2.png",
       "PackagePath": "staticwebassets\\images\\d82d15915a5a4f2684f6adb4b33bebc2.png"
+    },
+    {
+      "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\f276b6aa63ed47b584e92f49d8b34cef.png",
+      "PackagePath": "staticwebassets\\images\\f276b6aa63ed47b584e92f49d8b34cef.png"
     },
     {
       "Id": "C:\\Users\\202-1463\\Desktop\\recipe_in_home (1)\\wwwroot\\images\\fail.png",

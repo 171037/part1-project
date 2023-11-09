@@ -9,11 +9,11 @@ namespace recipe_in_home.Controllers
 		member_management mem;
 		public MemberController()
 		{
-			String connString = "Server = " + "127.0.0.1" +
-								";Database = " + "recipe_members" +
-								";port = " + "3306" +
-								";User = " + "root" +
-								";password = " + "0125";
+			String connString = "Server = " + "" +
+								";Database = " + "" +
+								";port = " + "" +
+								";User = " + "" +
+								";password = " + "";
 			mem = new member_management(connString);
 		}
 		public IActionResult Index()

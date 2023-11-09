@@ -19,11 +19,11 @@ namespace recipe_in_home.Controllers
         public PostController(IWebHostEnvironment env)
         {
             _env = env;
-            string connString = "Server=" + "127.0.0.1" +
-                                ";Database=" + "recipe_members" +
-                                ";port=" + "3306" +
-                                ";user=" + "root" +
-                                ";password=" + "103717";
+            string connString = "Server=" + "" +
+                                ";Database=" + "" +
+                                ";port=" + "" +
+                                ";user=" + "" +
+                                ";password=" + "";
             postService = new Csharp_Post_services(connString);
         }
 
