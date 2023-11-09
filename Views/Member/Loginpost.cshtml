@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Login Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    int? result = (int?)TempData["result"];
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        .success{
+            border: 2px solid black;
+            margin: auto;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .fail{
+            border: 2px solid black;
+            margin: auto;
+            font-size: 20px;
+            text-align: center;
+            }
+    </style>
+
+</head>
+    <body>
+@if (result == 1)
+{
+    <p class="success"> 로그인에 성공하였습니다.</p>
+    <img src="~/images/success.png" width="500" height="500">
+}
+else
+{
+    <p class="fail"> 로그인에 실패하셨습니다.</p>
+    <img src="~/images/fail.png" width="500" height="500">
+    }
+</body>
+</html>

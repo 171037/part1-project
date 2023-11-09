@@ -1,0 +1,11 @@
+/*사용자 이름 = member_name (varchar 45}
+  사용자 생년월일 = member_birth (date)
+  사용자 id = member_id(pr key)(varchar45)
+  사용자 pssword = member_pw (varchar45)
+  사용자 성별 = member_gender (char 1)
+  사용자 직업 = member_job(varchar 45)*/
+스키마 이름 : recipe_members
+테이블 이름 : members
+
+현재 생성(create)(회원가입으로 연결) 수정(update)(정보수정으로 연결) 삭제(delete)(탈퇴 및 정보제거) 완료.
+해야할것 로그인(Login)

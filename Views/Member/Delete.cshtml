@@ -1,0 +1,26 @@
+﻿@model recipe_in_home.Models.members
+@{
+    ViewBag.Title = "Delete";
+}
+<h2>Detail</h2>
+<table>
+    <tr>
+        <td>
+            아이디
+        </td>
+        <td>
+            @Html.TextBoxFor(m=>m.member_id)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            비밀번호
+        </td>
+        <td>
+            @Html.TextBoxFor(m=>m.member_pw)
+        </td>
+    </tr>
+</table>
+
+위의 데이터를 정말로 삭제하시려면 눌러 주세요.
+@Html.ActionLink("Delete", "Deletepost", new { id=Model.member_id})

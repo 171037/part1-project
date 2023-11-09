@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Create Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    int? result = (int?)TempData["result"];
+}
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="HomeStyle.css" />
+    </head>
+    <body>
+@if (result == 1)
+{
+    <p>데이터가 입력되었습니다.</p>
+    <img src="~/images/success.png" width="500" height="500">
+}
+else
+{
+    <p>데이터 입력에 실패하셨습니다.</p>
+    <img src="~/images/fail.png" width="500" height="500">
+    }
+</body>
+</html>

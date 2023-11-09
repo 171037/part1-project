@@ -1,0 +1,36 @@
+﻿@model recipe_in_home.Models.members
+@{
+    ViewBag.Title = "Login";
+}
+<h2>Detail</h2>
+
+<html>
+    <head>
+        <style>
+            tdid{
+                
+            }
+        </style>
+    </head>
+    <body>
+<table>
+    <tr>
+        <td>
+            아이디
+        </td>
+        <td class="tdid">
+            @Html.TextBoxFor(m=>m.member_id)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            비밀번호
+        </td>
+        <td class="tdpw">
+            @Html.TextBoxFor(m=>m.member_pw)
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

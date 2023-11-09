@@ -1,0 +1,45 @@
+﻿@model recipe_in_home.Models.members;
+@{
+    ViewBag.Title = "update";
+}
+
+<h2>create</h2>
+@using (Html.BeginForm("Updatepost", "Member", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div calss="form-horizontal">
+        <h4>Member</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new {@class = "text=danger"})
+        <div class="form-group">
+            @Html.LabelFor(model=>model.member_pw, htmlAttributes : new{
+        @class="control=label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(model=>model.member_pw, new{HtmlAttribute = new{
+            @class = "form-control"} })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model=>model.member_birth, htmlAttributes: new{
+        @class="control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(model=>model.member_birth, new{HtmlAttribute= new{
+            @class = "form-control"} })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model=>model.member_job, htmlAttributes: new{
+        @class="control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(model=>model.member_job, new{HtmlAttribute= new{
+            @class = "form-control"} })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}

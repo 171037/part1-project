@@ -1,0 +1,49 @@
+﻿@model IEnumerable<recipe_in_home.Models.members>
+@{
+    ViewBag.Title = "Read";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MySQL select 결과</h2>
+<p>
+    @Html.ActionLink("Create New", "Create", "Member")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model=> model.member_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model=> model.member_birth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model=>model.member_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model=>model.member_pw)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model=>model.member_gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model=>model.member_job)
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td> @Html.DisplayFor(modelitem=>item.member_name) </td>
+            <td> @Html.DisplayFor(modelitem=>item.member_birth) </td>
+            <td> @Html.DisplayFor(modelitem=>item.member_id) </td>
+            <td> @Html.DisplayFor(modelitem=>item.member_pw) </td>
+            <td> @Html.DisplayFor(modelitem=>item.member_gender) </td>
+            <td> @Html.DisplayFor(modelitem=>item.member_job) </td>
+            <td>
+                @Html.ActionLink("Update", "Update", new{ id= item.member_id})  |
+                @Html.ActionLink("Details", "Details", new { id=item.member_id}) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.member_id})
+            </td>
+        </tr>
+    }
+</table>

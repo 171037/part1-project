@@ -1,0 +1,69 @@
+﻿@model recipe_in_home.Models.members;
+@{
+    ViewBag.Title = "create";
+}
+<h2>create</h2>
+
+@using (Html.BeginForm("Createpost", "Member", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <table>
+        <tr>
+            <td>
+                이름
+            </td>
+            <td>
+                @Html.TextBoxFor(m=>m.member_name)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                생년월일
+            </td>
+            <td>
+                @Html.TextBoxFor(m=>m.member_birth)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                아이디
+            </td>
+            <td>
+                @Html.TextBoxFor(m=>m.member_id)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                비밀번호
+            </td>
+            <td>
+                @Html.TextBoxFor(m=>m.member_pw)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                성별
+            </td>
+            <td>
+                @Html.TextBoxFor(m=>m.member_gender)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                직업
+            </td>
+            <td>
+                @Html.TextBoxFor(m=>m.member_job)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </td>
+        </tr>
+    </table>
+}
+
+<div>
+    @Html.ActionLink("Bact to List", "Index")
+</div>
